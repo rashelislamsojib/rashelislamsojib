@@ -1,0 +1,359 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+/*-----Header start----*/
+#container{
+	max-width: 1200px;
+	margin: auto;
+}
+.nav{
+	background-color: lightgray;
+	overflow: hidden;
+}
+.nav .logo img{
+	height: 25px;
+	width: 25px;
+	margin-left: 20px;
+	padding: 5px 0;
+}
+.nav .logo-name{
+	font-size: 24px;
+	color: #273c75;
+	margin-left: 10px;
+	padding-top: 7px;
+}
+.nav .nav-items ul{
+	list-style-type: none;
+}
+.nav .nav-items ul li{
+	display: inline-block;
+	margin-right: 20px;
+	padding: 20px 10px;
+}
+.nav .logo{
+	float: left;
+}
+.nav .logo-name{
+	float: left;
+}
+.nav .nav-items{
+	float: right;
+}
+.nav .nav-items ul li a{
+	color: #2c3e50;
+}
+.nav .nav-items ul li:hover{
+    background:#e0e0e0;
+}
+.nav-hover{
+	color: #2c3e50;
+	padding: 20px 0;
+	font-size: 15px;
+	font-weight: 600;
+	transition:0.5s;
+}
+.nav-hover:hover{
+	color: red;
+	border-top: 2px solid #273c75;
+	border-bottom: 2px solid #273c75;
+	padding: 6px 0;
+	transition: 0.5s;
+	cursor: pointer;
+}
+/*-----Header end----*/
+
+
+
+/*-----Corousel start----*/
+
+#Carousel img{
+	width:100%;
+	height: 450px;
+}
+/*-----Corousel end----*/
+
+/*----Notice start----*/
+#Notice{
+	background-color: #d7ccc8;
+	color: #273c75;
+	padding: 13px 0;
+	margin-top: -3px;
+	border-top: 1px solid white;
+}
+#Notice span{
+	position: absolute;
+	background-color: #130f40;
+	color: #c7ecee;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 12px 20px;
+	margin-top: -14px;
+   
+}	
+/*----Notice end----*/
+
+
+/*----About section start----*/
+#about{
+background-image: url(../image/sun.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 500px;
+width: 100%;
+margin-top: 5px;	
+}
+#about .about-section{
+	max-width: 590px;
+    float: left;
+    padding: 20px 0;
+}
+#about h2{
+	background-color: #3742fa;
+	color: white;
+	font-size: 30px;
+	padding: 20px 0;
+	text-align: center;
+}
+#about .about-section img{
+	width: 70%;
+    height:70%;
+	margin-left:500px;
+	display: block;
+	margin: auto;
+	padding: 30px 0;
+}
+#about .about-section p{
+	text-align: justify;
+	line-height: 25px;
+	margin-left: 250px;
+	padding: 30px 0px;
+	color:white;
+	font-size: 20px;
+}
+/*----About section end----*/
+
+
+/*----Contact section start----*/
+#contact{
+	margin-top: 5px;
+	clear: both;
+}
+#contact .contact-section{
+	max-width: 580px;
+	float: left;
+}
+#contact h2{
+	background-color: #1289A7;
+	text-align: center;
+	font-size: 30px;
+	padding: 20px 0;
+	color: white;
+}
+#contact .contact-section h3{
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	margin-left: 270px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px 0;
+	border-bottom: 2px solid #12CBC4;
+}
+#contact .contact-section label{
+	font-size: 20px;
+	margin-left: 270px;
+}
+#contact .contact-section input{
+	height: 27px;
+	width: 260px;
+	margin-bottom: 10px;
+	margin-left: 270px;
+}
+#contact .contact-section button{
+	color: white;
+	background-color: #132f64;
+	padding: 10px 40px;
+	border-radius: 5px;
+	border: none;
+	margin-left: 290px;
+	margin-bottom: 50px;
+}
+#contact .contact-section button:hover{
+	background-color: #006266;
+}
+
+#contact .contact-section span{
+	font-size: 18px;
+	color: black;
+	display: block;
+	margin-left: 280px;
+	padding: 15px 0;
+}
+/*----Contact section end----*/
+
+/*-----map----*/
+
+/*-----map----*/
+
+
+/*-----footer section start-----*/
+
+#footer{
+    background-color:#1e406c;
+    height: 360px;
+    width: 100%;
+    margin-top: 30px;
+    clear: both;
+}
+
+#footer .footer-text{
+	max-width:280px;
+	float:left;
+	margin-left: 100px;
+	padding-top: 50px;
+}
+
+#footer .footer-text ul{
+	list-style-type: none;
+	margin-top: 5px;
+}
+
+#footer .footer-text ul li{
+	padding: 4px 0;	
+}
+
+#footer .footer-text ul li a{
+	color:#d1ccc0 ;
+}
+
+#footer .footer-text ul li a:hover{
+	color: red;
+}
+#footer .footer-text h2{
+	font-size: 20px;
+	color:#7f8fa6;
+	padding: 7px 0;
+	border-bottom: 1px solid white;
+}
+#footer .footer-text input{
+	height: 25px;
+	width: 200px;
+	margin-top: 20px;
+}
+#footer .footer-text button{
+	color: black;
+	background-color: red;
+	border-radius: 5px;
+	border: none;
+	padding: 7px;
+}
+#footer .footer-text h5{
+	color: white;
+	font-size: 14px;
+	letter-spacing: 2px;
+	padding: 10px;
+	font-family: italic;
+}
+#footer #footer-icons ul li{
+  display: inline-block;
+}
+#footer #footer-icons .icnfacebook{
+	color: red;
+	font-size: 14px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 50%;
+	margin-left: 8px;
+}
+#footer #footer-icons .icnfacebook:hover{
+	background-color: #162a53;
+}
+#footer #footer-icons .icnfacebook:hover i{
+	color: white;
+	transform: rotate(360deg);
+	transition: 0.2s;
+}
+
+#footer #footer-icons .icnyoutube{
+	color: red;
+	font-size: 14px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 50%;
+	margin-left: 8px;
+}
+#footer #footer-icons .icnyoutube:hover{
+	background-color: red;
+}
+#footer #footer-icons .icnyoutube:hover i{
+	color: white;
+	transform: rotate(360deg);
+	transition: 0.2s;
+}
+
+
+#footer #footer-icons .icntwitter{
+	color: red;
+	font-size: 14px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 50%;
+	margin-left: 8px;
+}
+#footer #footer-icons .icntwitter:hover{
+	background-color: #28aae1;
+}
+#footer #footer-icons .icntwitter:hover i{
+	color: white;
+	transform: rotate(360deg);
+	transition: 0.2s;
+}
+
+#footer #footer-icons .icnpinterest{
+	color: red;
+	font-size: 14px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 50%;
+	margin-left: 8px;
+}
+#footer #footer-icons .icnpinterest:hover{
+	background-color:rgb(0, 98, 102);
+}
+#footer #footer-icons .icnpinterest:hover i{
+	color:red;
+	transform: rotate(360deg);
+	transition: 0.2s;
+}
+
+#footer #footer-icons .icnapple{
+	color: red;
+	font-size: 14px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 50%;
+	margin-left: 8px;
+}
+#footer #footer-icons .icnapple:hover{
+	background-color: red;
+}
+#footer #footer-icons .icnapple:hover i{
+	color: white;
+	transform: rotate(360deg);
+	transition: 0.2s;
+}
+
+#foter-bottom{
+	background-color: #3742fa;
+	margin-top: 1px;
+}
+.footer-bottom p{
+	text-align: center;
+	padding:20px;
+	color: #95a5a6;
+
+}
+/*-----footer section end-----*/
